@@ -1,0 +1,96 @@
+/* import file __variable.css */
+@import url("./__variable.css");
+
+
+
+/* import file global.css */
+@import url("./global.css");
+
+/* start presentation */
+.presentation
+{
+    width: 600px;
+    padding-left:10px ;
+    box-sizing: border-box;
+    position: relative;
+}
+/* start photo */
+.photo
+{
+    margin-left: 80px;
+
+}
+.presentation .photo >img
+{
+    height: 250px;
+    width: 250px;
+    border-radius:50% ;
+}
+/* ENd photo */
+/* start propos */
+
+.content
+{
+    margin-left: 27px;
+    
+}
+.content ul
+{
+    list-style: none;
+    padding-left: 0px;
+
+}
+.content ul> li
+{
+    margin-bottom: 20px;
+}
+.progress
+{
+    height:3px ;
+    background-color: rgb(57, 57, 94);
+
+    
+}
+.progress >.progress-bar
+{
+    background-color:whitesmoke;
+    position: relative;
+    
+
+}
+
+.progress-bar::before
+{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    position: absolute ;
+    z-index: 10;
+    left: 100%;
+}
+
+/* ENd propos */
+/* End presentation */
+
+/* start about-me */
+.about-me
+{
+    background-color: lightgray;
+    width:60%;
+}
+.about,.work-experience,.education,.achievements,.hobbies
+{
+    flex-grow: 0;
+    box-shadow: 2px 2px 2px grey,
+    -2px -2px 2px grey ;
+    border-radius: 3px;
+}
+ .logo i
+{
+    font-size: 40px;
+    margin-right: 20px;
+}
+
+/* end about-me */
