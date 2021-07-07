@@ -1,0 +1,29 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+hr.bar
+{
+    background-color: rgb(27, 62, 216);
+    height: 2px;
+    margin-left: 80px;
+}
+ul >li
+{
+    list-style-type: none;
+}
+.mean> i
+{
+    font-size: 40px;
+}
+.flexible> .mean
+{
+     margin-left: 20px;
+}
+.padd
+{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
